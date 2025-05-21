@@ -24,7 +24,7 @@ public class Vuelo {
 
     public string CiudadDestino  {get; set; } = string.Empty;
      
-    [BsonElement("aeoropuerto_destino")]
+    [BsonElement("aeropuerto_destino")]
 
     public string AeropuertoDestino  {get; set; } = string.Empty;
 
